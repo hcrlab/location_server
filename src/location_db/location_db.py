@@ -36,9 +36,9 @@ class LocationDb(object):
             'header': {'frame_id': pose_stamped.header.frame_id},
             'pose': {
                 'position': {
-                    'x': pose_stamped.pose.orientation.x,
-                    'y': pose_stamped.pose.orientation.y,
-                    'z': pose_stamped.pose.orientation.z
+                    'x': pose_stamped.pose.position.x,
+                    'y': pose_stamped.pose.position.y,
+                    'z': pose_stamped.pose.position.z
                 },
                 'orientation': {
                     'w': pose_stamped.pose.orientation.w,
