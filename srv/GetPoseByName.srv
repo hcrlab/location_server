@@ -1,0 +1,4 @@
+string name
+---
+bool exists
+geometry_msgs/PoseStamped pose_stamped
