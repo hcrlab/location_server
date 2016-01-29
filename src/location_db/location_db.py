@@ -16,7 +16,6 @@ class LocationDb(object):
 
     @staticmethod
     def doc_to_pose_stamped(doc):
-        print doc
         ps = PoseStamped()
         try:
             ps.header.frame_id = doc['header']['frame_id']
